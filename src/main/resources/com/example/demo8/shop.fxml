@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="531.0" prefWidth="347.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="364.0" fitWidth="345.0">
+         <image>
+            <Image url="@../../../IdeaProjects/EDcaluag/src/main/java/com/example/edcaluag/Screenshot%202025-03-27%20134053.png" />
+         </image>
+      </ImageView>
+      <HBox prefHeight="19.0" prefWidth="348.0">
+         <children>
+            <Label prefHeight="8.0" prefWidth="49.0" style="-fx-background-color: orange;" text="Prefered" />
+            <Label prefHeight="18.0" prefWidth="293.0" style="-fx-background-color: white;" text="Wonder Love Pure Cotton Panty Mid Waist Plain Elastic Design">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </Label>
+         </children>
+      </HBox>
+      <Label prefHeight="18.0" prefWidth="342.0" style="-fx-background-color: white;" text="Underwear Set Panties for Women" />
+      <Label prefHeight="18.0" prefWidth="126.0" text="4.97K Ratings10K+ Sold" />
+      <Button mnemonicParsing="false" opacity="0.49" style="-fx-background-color: red;" text="Report" />
+      <Label prefHeight="18.0" prefWidth="346.0" text="₱259 - ₱269₱269-4%" textFill="#ff6302" />
+      <Label maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="18.0" prefWidth="350.0" text="flash sale teaser iconStarts at 00:00, 28 Mar" />
+      <HBox prefHeight="20.0" prefWidth="348.0">
+         <children>
+            <Label opacity="0.56" prefHeight="18.0" prefWidth="81.0" text="Bundle Deals" />
+            <Label prefHeight="18.0" prefWidth="217.0" text="Any 2 enjoy 1% off" />
+         </children>
+      </HBox>
+      <HBox prefHeight="30.0" prefWidth="348.0">
+         <children>
+            <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" style="-fx-background-color: green;" text="Add to Cart">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="100.0" style="-fx-background-color: red;" text="Buy now">
+               <HBox.margin>
+                  <Insets left="150.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+   </children>
+</VBox>

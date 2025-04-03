@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.gluonhq.charm.glisten.control.BottomNavigationButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="473.0" prefWidth="530.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="338.0" fitWidth="531.0">
+         <image>
+            <Image url="@../../Pictures/Screenshots/Screenshot%202025-03-27%20142704.png" />
+         </image>
+      </ImageView>
+      <Label prefHeight="18.0" prefWidth="530.0" text="Blue - Yung Kai, Marilag💗 Best OPM Tagalog Love Songs💗 OPM Tagalog Top Songs 2024 Playlist" textFill="WHITE">
+         <padding>
+            <Insets left="5.0" />
+         </padding>
+         <font>
+            <Font name="Bodoni MT" size="12.0" />
+         </font>
+      </Label>
+      <HBox prefHeight="26.0" prefWidth="530.0">
+         <children>
+            <ImageView fitHeight="38.0" fitWidth="40.0">
+               <image>
+                  <Image url="@../../../Downloads/fdd09ab2-0747-48fe-99ca-dd174f018419.jpg" />
+               </image>
+               <HBox.margin>
+                  <Insets left="5.0" />
+               </HBox.margin>
+            </ImageView>
+            <Label prefHeight="18.0" prefWidth="118.0" text="Rhapsody chill music" textFill="WHITE">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin>
+               <font>
+                  <Font name="Broadway" size="12.0" />
+               </font>
+            </Label>
+            <BottomNavigationButton prefHeight="26.0" prefWidth="73.0" style="-fx-background-color: red;" text="Subscribe">
+               <HBox.margin>
+                  <Insets left="2.0" />
+               </HBox.margin>
+            </BottomNavigationButton>
+            <BottomNavigationButton prefHeight="26.0" prefWidth="73.0" style="-fx-background-color: orange;" text="Share">
+               <HBox.margin>
+                  <Insets left="10.0" />
+               </HBox.margin>
+            </BottomNavigationButton>
+            <BottomNavigationButton prefHeight="26.0" prefWidth="73.0" style="-fx-background-color: skyblue;" text="Download">
+               <HBox.margin>
+                  <Insets left="10.0" />
+               </HBox.margin>
+            </BottomNavigationButton>
+            <BottomNavigationButton prefHeight="26.0" prefWidth="73.0" style="-fx-background-color: skyblue;" text="save">
+               <HBox.margin>
+                  <Insets left="50.0" />
+               </HBox.margin>
+            </BottomNavigationButton>
+         </children>
+      </HBox>
+      <Label prefHeight="18.0" prefWidth="258.0" text="4.9M views  2 months ago" textFill="WHITE">
+         <padding>
+            <Insets left="5.0" />
+         </padding>
+         <font>
+            <Font name="Arial Black" size="12.0" />
+         </font>
+      </Label>
+      <Label prefHeight="18.0" prefWidth="166.0" text="45.KComments" textFill="WHITE">
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+         <padding>
+            <Insets left="5.0" />
+         </padding>
+      </Label>
+      <VBox prefHeight="200.0" prefWidth="100.0">
+         <children>
+            <ImageView fitHeight="22.0" fitWidth="25.0">
+               <image>
+                  <Image url="@../../../Downloads/rap.png" />
+               </image>
+            </ImageView>
+            <HBox prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <Label prefHeight="18.0" prefWidth="532.0" text="When you are reading this, I wish you a day that is simply perfect in every way........." textFill="WHITE">
+                     <padding>
+                        <Insets left="5.0" />
+                     </padding>
+                     <font>
+                        <Font name="Arial" size="11.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</VBox>
