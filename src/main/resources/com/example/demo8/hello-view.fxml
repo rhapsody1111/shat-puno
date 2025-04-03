@@ -1,16 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
 
-<VBox alignment="CENTER" spacing="20.0" style="-fx-background-color: magenta;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/17.0.12" fx:controller="com.example.demo8.HelloController">
+<VBox alignment="CENTER" prefHeight="436.0" prefWidth="422.0" spacing="20.0" style="-fx-background-color: magenta;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo8.HelloController">
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
     </padding>
-   <Button mnemonicParsing="false" text="Button" />
-   <Button mnemonicParsing="false" text="Button" />
+   <ImageView fitHeight="167.0" fitWidth="167.0">
+      <image>
+         <Image url="@../../../../../../../../Downloads/tiktok-removebg-preview.png" />
+      </image>
+   </ImageView>
+   <Label prefHeight="36.0" prefWidth="105.0" text="Tiktok">
+      <font>
+         <Font name="System Bold" size="31.0" />
+      </font>
+   </Label>
+   <Label text="PLease enter  you Login and your Password" />
+   <TextField maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="26.0" prefWidth="200.0" text="Email" />
+   <PasswordField maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefWidth="200.0" promptText="Password" />
+    <Button onAction="#onHelloButtonClick" prefHeight="26.0" prefWidth="200.0" style="-fx-background-color: blue;" text="Log in">
+      <VBox.margin>
+         <Insets />
+      </VBox.margin></Button>
+   <HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="54.0" prefWidth="318.0">
+      <children>
+         <Button minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefWidth="142.0" style="-fx-background-color: transparent;" text="Not remember yet?">
+            <HBox.margin>
+               <Insets />
+            </HBox.margin>
+         </Button>
+         <Button maxHeight="-Infinity" maxWidth="-Infinity" mnemonicParsing="false" prefHeight="26.0" prefWidth="122.0" style="-fx-background-color: transparent;" text="Create new account">
+            <HBox.margin>
+               <Insets left="50.0" />
+            </HBox.margin>
+         </Button>
+      </children>
+   </HBox>
 
     <Label fx:id="welcomeText" />
-    <Button onAction="#onHelloButtonClick" text="Hello!" />
 </VBox>
